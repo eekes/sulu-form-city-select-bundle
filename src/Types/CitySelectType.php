@@ -51,6 +51,7 @@ class CitySelectType implements FormFieldTypeInterface
             }
         }
 
+        $options['attr']['class'] = 'eekes-city-select';
         $options['multiple'] = false;
         $options['expanded'] = false;
         $options['choices'] = $choices;
