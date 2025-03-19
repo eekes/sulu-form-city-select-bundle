@@ -1,0 +1,5 @@
+eekes.sulu_form_city_select.city_select_type: City Select
+eekes.sulu_form_city_select.admin.format: Format
+eekes.sulu_form_city_select.admin.format_info: 'You can use %country%, %city% and %zip%'
+eekes.sulu_form_city_select.admin.countries: 'Countries'
+eekes.sulu_form_city_select.admin.countries.be: 'Belgium'

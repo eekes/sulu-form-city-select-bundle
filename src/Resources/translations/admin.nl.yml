@@ -1,0 +1,5 @@
+eekes.sulu_form_city_select.city_select_type: Keuzelijst steden
+eekes.sulu_form_city_select.admin.format: Weergave
+eekes.sulu_form_city_select.admin.format_info: 'Je kan %country%, %city% en %zip% gebruiken'
+eekes.sulu_form_city_select.admin.countries: 'Landen'
+eekes.sulu_form_city_select.admin.countries.be: 'België'

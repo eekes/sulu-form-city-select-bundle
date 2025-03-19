@@ -1,0 +1,8 @@
+services:
+    Eekes\Sulu\FormCitySelectBundle\Service\CityParser: ~
+
+    Eekes\Sulu\FormCitySelectBundle\Types\CitySelectType:
+        arguments:
+            $cityParser: '@Eekes\Sulu\FormCitySelectBundle\Service\CityParser'
+        tags:
+            - { name: "sulu_form.dynamic.type", alias: "city_select" }
