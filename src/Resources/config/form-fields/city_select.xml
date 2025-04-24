@@ -10,6 +10,7 @@
             <param name="type" value="toggler"/>
         </params>
     </property>
+
     <property name="width" type="single_select" mandatory="true" colspan="6">
         <meta>
             <title>sulu_form.width</title>
@@ -69,6 +70,13 @@
     <property name="title" type="text_editor" mandatory="true">
         <meta>
             <title>sulu_form.title</title>
+        </meta>
+    </property>
+
+    <property name="shortTitle" type="text_line">
+        <meta>
+            <title>sulu_form.short_title</title>
+            <info_text>sulu_form.short_title_description</info_text>
         </meta>
     </property>
 
